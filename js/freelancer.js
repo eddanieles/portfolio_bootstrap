@@ -30,7 +30,13 @@
         }
     })
 
-    $('.carousel').carousel()
+    $('.carousel').carousel({
+      interval: 4000
+    })
+
+    $('.timeline-content h4').click(function(){
+      $(this).next('p').toggle('slow');
+    })
 
     // Floating label headings for the contact form
     $(function() {
