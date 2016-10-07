@@ -180,7 +180,11 @@ section {
 
 section h2 {
   margin: 0;
-  font-size: 3em; }
+  font-size: 3em;
+  color: #9D1A42}
+
+section.success h2{
+  color: white; }
 
 section.success {
   background: #9D1A42;
