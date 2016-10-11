@@ -549,3 +549,12 @@ fieldset[disabled] .btn-success.active {
 .carousel-inner > .item > img {
     margin: 0 auto;
 }
+
+.resume a {
+  color: #58041D;
+}
+
+.resume a:hover{
+  color: blue;
+  text-decoration: underline;
+}
